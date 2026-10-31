@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HTML 17 - SVG Şekilleri</title><style>
+:root{--ink:#172033;--muted:#64748b;--bg:#f8fafc;--primary:#4f46e5;--accent:#0ea5e9}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(135deg,#eef2ff,#f8fafc);color:var(--ink)}
+.page{max-width:1100px;margin:0 auto;padding:32px 18px}.top{background:#111827;color:white;padding:22px 24px;border-radius:20px;margin-bottom:18px}
+.top small{color:#cbd5e1}.demo{background:white;border:1px solid #e2e8f0;border-radius:20px;padding:24px;box-shadow:0 14px 40px rgba(15,23,42,.08)}
+.demo h1,.demo h2,.demo h3{margin-top:0}.demo img{max-width:100%;height:auto;border-radius:14px}.demo table{width:100%;border-collapse:collapse}.demo th,.demo td{padding:10px;border:1px solid #cbd5e1;text-align:left}.demo form{display:grid;gap:10px}.demo input,.demo textarea,.demo button{font:inherit;padding:11px;border:1px solid #cbd5e1;border-radius:9px}.demo button{background:#4f46e5;color:white;border:0;cursor:pointer}.source{margin-top:18px;background:#0b1020;color:#e2e8f0;border-radius:16px;padding:18px;overflow:auto}.source pre{white-space:pre-wrap;margin:0;font:13px/1.6 Consolas,monospace}.note{margin-top:18px;padding:14px 16px;background:#eef2ff;border-left:4px solid #4f46e5;border-radius:8px;color:#312e81}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}.nav a{color:#fff;text-decoration:none;padding:8px 12px;border-radius:999px;background:#334155}.nav a:hover{background:#475569}
+</style></head>
+<body><div class="page"><div class="top"><small>MEM215 • İnternet Tabanlı Programlama • Ödev 2</small><h1>HTML Uygulama 17: SVG Şekilleri</h1></div><div class="nav"><a href="../../index.html">Ana Menü</a><a href="../index.html">Uygulamalar</a></div>
+<div class="demo"><svg viewBox="0 0 420 180" role="img" aria-label="Renkli geometrik şekiller">
+  <rect x="20" y="35" width="100" height="90" rx="18" fill="#2563eb"/>
+  <circle cx="210" cy="80" r="48" fill="#f59e0b"/>
+  <line x1="300" y1="125" x2="395" y2="30" stroke="#dc2626" stroke-width="12"/>
+</svg></div>
+<div class="source"><strong>Kaynak kod:</strong><pre>&lt;svg viewBox=&quot;0 0 420 180&quot; role=&quot;img&quot; aria-label=&quot;Renkli geometrik şekiller&quot;&gt;
+  &lt;rect x=&quot;20&quot; y=&quot;35&quot; width=&quot;100&quot; height=&quot;90&quot; rx=&quot;18&quot; fill=&quot;#2563eb&quot;/&gt;
+  &lt;circle cx=&quot;210&quot; cy=&quot;80&quot; r=&quot;48&quot; fill=&quot;#f59e0b&quot;/&gt;
+  &lt;line x1=&quot;300&quot; y1=&quot;125&quot; x2=&quot;395&quot; y2=&quot;30&quot; stroke=&quot;#dc2626&quot; stroke-width=&quot;12&quot;/&gt;
+&lt;/svg&gt;</pre></div>
+<div class="note"><strong>Öğrenilen:</strong> SVG kullanarak ölçeklenebilir daire, dikdörtgen ve çizgi oluşturdum.</div>
+</div></body></html>
